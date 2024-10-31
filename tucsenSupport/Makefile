@@ -16,7 +16,7 @@ BIN_INSTALLS_WIN32    += ../os/windows-x64/TUCam.dll
 endif
 endif
 
-ifeq (linux-x86_64, $(findstring linux-x86_64, $(T_A)))
+ifeq (x86_64, $(findstring x86_64, $(T_A)))
 ifneq ($(TUCAM_EXTERNAL),YES)
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so.1

@@ -6,9 +6,9 @@ include $(TOP)/configure/CONFIG
 LIBRARY_IOC += tucsen
 LIB_SRCS += tucsen.cpp
 ifeq ($(TUCAM_EXTERNAL),YES)
-LIB_SYS_LIBS += TUCam
+#LIB_SYS_LIBS += TUCam
 else
-LIB_LIBS += TUCam
+#LIB_LIBS += TUCam
 endif
 
 DBD += tucsenSupport.dbd
