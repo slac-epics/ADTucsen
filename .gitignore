@@ -13,6 +13,6 @@ lib/
 templates/
 cdCommands
 envPaths
-#RELEASE_SITE
+RELEASE_SITE
 tags
 
