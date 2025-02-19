@@ -3,8 +3,8 @@ beginScreenProperties
 major 4
 minor 0
 release 1
-x 690
-y 399
+x 695
+y 428
 w 652
 h 473
 font "helvetica-medium-r-12.0"
@@ -263,8 +263,8 @@ bgColor index 63
 inconsistentColor index 12
 topShadowColor index 2
 botShadowColor index 12
-controlPv "$(P)$(R)AndorEMGainMode"
-indicatorPv "$(P)$(R)AndorEMGainMode"
+controlPv "$(P)$(R)TucsenEMGainMode"
+indicatorPv "$(P)$(R)TucsenEMGainMode"
 font "helvetica-medium-r-12.0"
 endObjectProperties
 
@@ -283,8 +283,8 @@ bgColor index 63
 inconsistentColor index 12
 topShadowColor index 2
 botShadowColor index 12
-controlPv "$(P)$(R)AndorEMGainAdvanced"
-indicatorPv "$(P)$(R)AndorEMGainAdvanced"
+controlPv "$(P)$(R)TucsenEMGainAdvanced"
+indicatorPv "$(P)$(R)TucsenEMGainAdvanced"
 font "helvetica-medium-r-12.0"
 endObjectProperties
 
@@ -298,7 +298,7 @@ x 248
 y 188
 w 92
 h 20
-controlPv "$(P)$(R)AndorADCSpeed_RBV"
+controlPv "$(P)$(R)TucsenADCSpeed_RBV"
 format "string"
 font "helvetica-medium-r-14.0"
 fgColor index 15
@@ -307,6 +307,7 @@ limitsFromDb
 nullColor index 40
 smartRefresh
 fastUpdate
+useHexPrefix
 newPos
 objType "controls"
 endObjectProperties
@@ -341,7 +342,7 @@ x 248
 y 88
 w 92
 h 20
-controlPv "$(P)$(R)AndorPreAmpGain_RBV"
+controlPv "$(P)$(R)TucsenPreAmpGain_RBV"
 format "string"
 font "helvetica-medium-r-14.0"
 fgColor index 15
@@ -384,12 +385,11 @@ x 248
 y 112
 w 92
 h 20
-controlPv "$(P)$(R)AndorEMGain_RBV"
+controlPv "$(P)$(R)TucsenEMGain_RBV"
 format "decimal"
 font "helvetica-medium-r-14.0"
 fgColor index 15
 bgColor index 12
-limitsFromDb
 nullColor index 40
 smartRefresh
 fastUpdate
@@ -427,7 +427,7 @@ x 248
 y 136
 w 92
 h 20
-controlPv "$(P)$(R)AndorEMGainMode_RBV"
+controlPv "$(P)$(R)TucsenEMGainMode_RBV"
 format "string"
 font "helvetica-medium-r-14.0"
 fgColor index 15
@@ -436,6 +436,7 @@ limitsFromDb
 nullColor index 40
 smartRefresh
 fastUpdate
+useHexPrefix
 newPos
 objType "controls"
 endObjectProperties
@@ -470,7 +471,7 @@ x 248
 y 164
 w 92
 h 20
-controlPv "$(P)$(R)AndorEMGainAdvanced_RBV"
+controlPv "$(P)$(R)TucsenEMGainAdvanced_RBV"
 format "string"
 font "helvetica-medium-r-14.0"
 fgColor index 15
@@ -479,6 +480,7 @@ limitsFromDb
 nullColor index 40
 smartRefresh
 fastUpdate
+useHexPrefix
 newPos
 objType "controls"
 endObjectProperties
@@ -513,7 +515,7 @@ x 144
 y 112
 w 88
 h 20
-controlPv "$(P)$(R)AndorEMGain"
+controlPv "$(P)$(R)TucsenEMGain"
 format "decimal"
 font "helvetica-medium-r-12.0"
 fgColor index 25
@@ -538,12 +540,11 @@ x 144
 y 188
 w 88
 h 20
-controlPv "$(P)$(R)AndorADCSpeed"
+controlPv "$(P)$(R)TucsenADCSpeed"
 format "decimal"
 font "helvetica-medium-r-12.0"
 fgColor index 25
 bgColor index 5
-editable
 limitsFromDb
 nullColor index 40
 smartRefresh
