@@ -37,22 +37,6 @@ endif
 
 ifeq (rhel7-x86_64, $(findstring rhel7-x86_64, $(T_A)))
 ifneq ($(TUCAM_EXTERNAL),YES)
-<<<<<<< HEAD
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so.1
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so.1.0
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libTUCam.so.1.0.0
-LIB_INSTALLS_Linux += ../os/linux-x86_64/coaxlink.cti
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libGCBase_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libGenApi_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libKYFGLibGenTL.cti
-LIB_INSTALLS_Linux += ../os/linux-x86_64/liblog4cpp_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libLog_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libMathParser_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libNodeMapData_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/libXmlParser_gcc421_v3_0.so
-LIB_INSTALLS_Linux += ../os/linux-x86_64/tuusb.conf
-=======
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libc.so.6
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libstdc++.so.6
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libTUCam.so
@@ -68,7 +52,7 @@ LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libLog_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libMathParser_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libNodeMapData_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libXmlParser_gcc421_v3_0.so
->>>>>>> 30dfcb540612033480c63bb9ec56709ab5870398
+LIB_INSTALLS_Linux += ../os/rhel7-x86_64/tuusb.conf
 endif
 endif
 
