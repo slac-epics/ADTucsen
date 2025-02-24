@@ -31,6 +31,7 @@ LIB_INSTALLS_Linux += ../os/linux-x86_64/libLog_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libMathParser_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libNodeMapData_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libXmlParser_gcc421_v3_0.so
+LIB_INSTALLS_Linux += ../os/linux-x86_64/tuusb.conf
 endif
 endif
 
@@ -49,6 +50,7 @@ LIB_INSTALLS_Linux += ../os/linux-x86_64/libLog_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libMathParser_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libNodeMapData_gcc421_v3_0.so
 LIB_INSTALLS_Linux += ../os/linux-x86_64/libXmlParser_gcc421_v3_0.so
+LIB_INSTALLS_Linux += ../os/linux-x86_64/tuusb.conf
 endif
 endif
 
