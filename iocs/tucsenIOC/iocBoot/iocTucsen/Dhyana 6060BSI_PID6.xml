@@ -1,0 +1,15 @@
+<?TUXML version="1.0" encoding="UTF-8"?>
+<Cam_Dhyana6060BSI Using="DftParameter">
+    <ParameterSets Name="DftParameter">
+        <Sharpness>0</Sharpness>
+        <Gamma>100</Gamma>
+        <Contrast>128</Contrast>
+        <LeftLevels>0</LeftLevels>
+        <RightLevels>65535</RightLevels>
+        <HistogramStatistic>0</HistogramStatistic>
+        <AutoLevels>0</AutoLevels>
+        <VerticalCorrection>0</VerticalCorrection>
+        <TimeStampEn>1</TimeStampEn>
+        <Visibility>0</Visibility>
+    </ParameterSets>
+</Cam_Dhyana6060BSI>
