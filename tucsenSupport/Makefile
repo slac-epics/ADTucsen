@@ -39,6 +39,7 @@ ifeq (rhel7-x86_64, $(findstring rhel7-x86_64, $(T_A)))
 ifneq ($(TUCAM_EXTERNAL),YES)
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libc.so.6
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libstdc++.so.6
+LIB_INSTALLS_Linux += ../os/rhel7-x86_64/ld-linux-x86-64.so.2
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libTUCam.so
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libTUCam.so.1
 LIB_INSTALLS_Linux += ../os/rhel7-x86_64/libTUCam.so.1.0
